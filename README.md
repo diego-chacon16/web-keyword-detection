@@ -14,9 +14,10 @@
 
 #### Description of tumor board labels:
 
-1 (no evidence): tumor boards are not mentioned on the page
-2 (medium confidence): tumor boards are mentioned, but the page is not completely dedicated to tumor board description
-3 (high confidence): page is completely dedicated to the description of tumor board types and dates
++ 1 (no evidence): tumor boards are not mentioned on the page
++ 2 (medium confidence): tumor boards are mentioned, but the page is not completely dedicated to tumor board description
++ 3 (high confidence): page is completely dedicated to the description of tumor board types and dates
+
 You are asked to prepare a model using htmls, referred to in train.csv, and make predictions for htmls from test.csv
 
 
