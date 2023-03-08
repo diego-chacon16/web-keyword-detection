@@ -26,3 +26,6 @@ Prepare a model using the train.csv and make predictions on the test.csv
 ## Practicalities
 
 + How to handle this large amount of data?
++ What decisions were made for feature engineering and why?
++ What models were used? Why did I choose to use those models?
++ How were the results validated?
