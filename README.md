@@ -26,6 +26,8 @@ Prepare a model using the train.csv and make predictions on the test.csv
 ## Practicalities
 
 + How to handle this large amount of data?
+A: Using data generators to load the samples disk. Given its size, it is also possible to load the data into memory.
 + What decisions were made for feature engineering and why?
+A: Most of the efforts were spent pre-processing the data. Steps like removing punctuation, multiple white spaces, numbers, etc.
 + What models were used? Why did I choose to use those models?
 + How were the results validated?
