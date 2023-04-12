@@ -1,4 +1,4 @@
-# Keyword Detection on Websites
+# Keyword Detection on Websites - Guided Project
 
 ## Objective 
 + Create an algorithm, that takes html page as input and infers if the page contains the information about cancer tumorboard or not
