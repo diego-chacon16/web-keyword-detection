@@ -33,3 +33,6 @@ A: Most of the efforts were spent pre-processing the data. Steps like removing p
 A: The strategy was to used Siamese Networks. They are popular for this type of task (smaller data set, imbalanced classes)
 + How were the results validated?
 A: The validation of the results was handled by Tensorflow. The validation data (20% of the dataset) was passed through it to validate the results.
++ What potential opportunities do you see with your algorithm?
+A: Given the fact it is a small dataset with a class imbalance, we should be weary of overfitting
+A: There is 0 precision and recall on label 3 which is concerning, and needs to be addressed
