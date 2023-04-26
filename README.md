@@ -26,8 +26,10 @@ Prepare a model using the train.csv and make predictions on the test.csv
 ## Practicalities
 
 + How to handle this large amount of data?
-A: Using data generators to load the samples disk. Given its size, it is also possible to load the data into memory.
+A: Using data generators to load the samples disk. The amount of data itself was relatively small.
 + What decisions were made for feature engineering and why?
 A: Most of the efforts were spent pre-processing the data. Steps like removing punctuation, multiple white spaces, numbers, etc.
 + What models were used? Why did I choose to use those models?
+A: The strategy was to used Siamese Networks. They are popular for this type of task (smaller data set, imbalanced classes)
 + How were the results validated?
+A: The validation of the results was handled by Tensorflow. The validation data (20% of the dataset) was passed through it to validate the results.
